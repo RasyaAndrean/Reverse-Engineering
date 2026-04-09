@@ -1,0 +1,31 @@
+# Binaries & executables
+*.exe
+*.dll
+*.sys
+*.o
+*.obj
+
+# Malware samples — jangan sampai ke-push
+experiments/malware-analysis/samples/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Ghidra project files (besar)
+*.gpr
+*.rep/
+
+# IDA files
+*.idb
+*.i64
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
